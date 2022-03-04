@@ -1,0 +1,307 @@
+/* X-Small devices (portrait phones, less than 576px */
+@media (max-width: 575.98px) {
+  /* COMMON CSS */
+  .btn {
+    padding: 10px 10px;
+    font-size: 12px;
+  }
+  /* HEADER TOP */
+  .navbar-toggler,
+  .navbar-toggler:active,
+  .navbar-toggler:focus,
+  .navbar-toggler:focus-within,
+  .navbar-toggler:focus-visible {
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .nav-link {
+    margin: 10px 0 !important;
+    text-align: center;
+    font-size: 15px !important;
+    color: #000 !important;
+  }
+  .nav-link:hover {
+    color: #000 !important;
+  }
+  .navbar-text {
+    text-align: center;
+  }
+  /* HERO */
+  #hero-bg::before {
+    width: 100% !important;
+    height: 100% !important;
+    z-index: -1;
+  }
+  .hero-left-side-content {
+    color: #fff;
+    padding: 0 0 0 20px;
+  }
+  .p-subtitle {
+    font-size: 16px;
+  }
+  .hero-heading-title {
+    font-size: 26px !important;
+  }
+  .find-gift-now-btn:hover {
+    background: transparent;
+  }
+  .hero-subtitle {
+    padding: 0;
+  }
+  .p-subtitle {
+    font-size: 16px !important;
+  }
+  /* CTA SECTION */
+  .cta-primary-heading-title {
+    font-size: 28px;
+  }
+  .btn-group {
+    margin: 40px 0 0 0;
+  }
+  .btn-group .btn {
+    padding: 7px 10px;
+    font-size: 14px;
+  }
+  /* POSTS BLOG */
+  #posts-blog-bg .card-blog .blog-body {
+    padding: 63px 0 49px 36px;
+  }
+  #posts-blog-bg .card-blog .blog-text {
+    font-size: 36px !important;
+  }
+  /* CARD ITEM */
+  .card-item .active-card {
+    margin-bottom: 30px;
+  }
+  .card-item .active-card {
+    margin-right: 0 !important;
+  }
+  /* FOOTER */
+  .footer-nav .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .navbar-nav .nav-link {
+    padding: 0 5px;
+  }
+  #footer-bg .footer-nav .color-hr-span .color-hr {
+    margin-left: 20px;
+    width: 250px;
+  }
+  /* FOOTER ICON GROUP */
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  /* COMMON CSS */
+  .btn {
+    padding: 10px 14px;
+    font-size: 16px;
+  }
+  /* HEADER TOP */
+  .navbar-toggler,
+  .navbar-toggler:active,
+  .navbar-toggler:focus,
+  .navbar-toggler:focus-within,
+  .navbar-toggler:focus-visible {
+    box-shadow: none !important;
+    border: none !important;
+  }
+  #header-top .nav-link {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #000 !important;
+  }
+  .nav-link:hover {
+    color: #000 !important;
+  }
+  #header-top .navbar-text {
+    text-align: center;
+  }
+  /* HERO */
+  #hero-bg::before {
+    width: 100% !important;
+    height: 100% !important;
+    z-index: -1;
+  }
+  .hero-heading-title {
+    font-size: 38px;
+    color: #fff;
+  }
+  .p-subtitle {
+    color: #fff;
+  }
+  .find-gift-now-btn:hover {
+    background: transparent;
+  }
+  /* FEATURE SPLIT */
+  #feature-split-bg {
+    padding: 100px 0;
+  }
+  #feature-split-bg::before {
+    display: none;
+  }
+  .split-right-content {
+    margin-left: 30px;
+  }
+  .feature-split-heading-title {
+    font-size: 30px;
+    color: #000;
+  }
+  .feature-split-subtitle {
+    color: #000;
+  }
+  /* POSTS TAIL  */
+  .posts-tail-subtitle {
+    color: #000;
+  }
+  /* CTA SECTION */
+  .btn-group {
+    margin: 40px 0 0 0;
+  }
+  /* POSTS BLOG */
+  #posts-blog-bg .card-blog .blog-body {
+    padding: 63px 0 49px 36px;
+  }
+  #posts-blog-bg .card-blog .blog-text {
+    font-size: 36px !important;
+  }
+  /* CARD ITEM */
+  .card-item .active-card {
+    margin-bottom: 30px;
+  }
+  .card-item .active-card {
+    margin-right: 0 !important;
+  }
+  /* FOOTER */
+  .footer-nav .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .footer-nav .active,
+  .footer-nav .services-link {
+    margin-right: 14px;
+  }
+  .footer-nav .navbar-logo {
+    margin: 0 40px;
+  }
+  #footer-bg .footer-nav .color-hr {
+    margin-left: 54px;
+    width: 420px;
+  }
+  /* FOOTER ICON GROUP */
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  #header-top .navbar-toggler,
+  .navbar-toggler:active,
+  .navbar-toggler:focus,
+  .navbar-toggler:focus-within,
+  .navbar-toggler:focus-visible {
+    box-shadow: none !important;
+    border: none !important;
+  }
+  #header-top .nav-link {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #000 !important;
+  }
+  .nav-link:hover,
+  .nav-link:active,
+  .nav-link:focus {
+    color: #000 !important;
+  }
+  #header-top .navbar-text {
+    text-align: center;
+  }
+  /* HERO */
+  #hero-bg::before {
+    width: 50%;
+  }
+  .hero-heading-title {
+    font-size: 38px !important;
+  }
+  .hero-subtitle {
+    padding: 0 40px 0 0;
+  }
+  /* FEATURE SPLIT */
+  #feature-split-bg {
+    padding: 76px 0;
+  }
+  .split-right-content {
+    margin-left: 50px;
+  }
+  /* POSTS TAIL */
+  #posts-tail-bg {
+    padding: 0 0 30px 0;
+  }
+  #posts-tail-bg .card {
+    margin: 0 0 110px 0;
+  }
+  /* FOOTER */
+  .footer-nav .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .footer-nav .active,
+  .footer-nav .services-link {
+    margin-right: 14px;
+  }
+  .footer-nav .color-hr {
+    margin: 43px 0 43px 57px;
+    width: 620px;
+  }
+  /* FOOTER ICON GROUP */
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  /* HEADER TOP */
+  .navbar-toggler,
+  .navbar-toggler:active,
+  .navbar-toggler:focus,
+  .navbar-toggler:focus-within,
+  .navbar-toggler:focus-visible {
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .hero-heading-title {
+    font-size: 50px;
+  }
+  /* FOOTER */
+  .color-hr {
+    margin: 43px 0 43px 97px;
+    width: 750px;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+/* @media (max-width: 1399.98px) {
+} */
